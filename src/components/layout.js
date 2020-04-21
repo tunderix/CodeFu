@@ -13,8 +13,6 @@ import "../assets/vendor/nucleo/css/nucleo.css";
 import "../assets/vendor/font-awesome/css/font-awesome.min.css";
 import "../assets/scss/argon-design-system-react.scss?v1.1.0";
 
-import Header from "./header";
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -28,7 +26,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
           margin: `0 auto`,
@@ -37,11 +34,6 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
     </>
   );
