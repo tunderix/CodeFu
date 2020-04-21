@@ -1,6 +1,15 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
+import styled from "styled-components";
+
+const HeaderContainer = styled.div`
+  margin: 0 auto;
+  padding: 1.45rem 1.0875rem;
+`;
+const SubHeader = styled.h1`
+  margin: 0;
+`;
 
 const Header = ({ siteTitle }) => (
   <header
@@ -9,14 +18,8 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`
     }}
   >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
+    <HeaderContainer>
+      <SubHeader>
         <Link
           to="/"
           style={{
@@ -26,8 +29,8 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-      </h1>
-    </div>
+      </SubHeader>
+    </HeaderContainer>
   </header>
 );
 
