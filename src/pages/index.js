@@ -14,12 +14,12 @@ import ContactMeSection from "../components/ContactSection";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <IntroductionSection></IntroductionSection>
-    <SkillsSection></SkillsSection>
-    <CapabilitiesSection></CapabilitiesSection>
-    <ProjectsSection></ProjectsSection>
-    <GameJamsSection></GameJamsSection>
-    <ContactMeSection></ContactMeSection>
+    <IntroductionSection className="container-fluid"></IntroductionSection>
+    <SkillsSection className="container-fluid"></SkillsSection>
+    <CapabilitiesSection className="container-fluid"></CapabilitiesSection>
+    <ProjectsSection className="container-fluid"></ProjectsSection>
+    <GameJamsSection className="container-fluid"></GameJamsSection>
+    <ContactMeSection className="container-fluid"></ContactMeSection>
   </Layout>
 );
 

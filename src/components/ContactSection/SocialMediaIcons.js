@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 
 const FaBaseStyle = styled.button`
-  padding: 20px;
-  font-size: 30px;
-  width: 100px;
-  height: 100px;
+  padding: 10px;
+  font-size: 60px;
+  width: 160px;
+  height: 160px;
   text-align: center;
   text-decoration: none;
 `;
