@@ -31,7 +31,7 @@ SkillCategory.defaultProps = {
   header: "xxx",
   skillData: [
     { title: "xoxo", value: 5 },
-    { title: "HoXo", value: 5 }
+    { title: "HoXo", value: 4 }
   ]
 };
 SkillCategory.propTypes = {

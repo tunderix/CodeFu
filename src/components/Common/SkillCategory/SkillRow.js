@@ -12,16 +12,17 @@ const StyledSkillIcon = styled.img`
   height: 40px;
 `;
 
-const SkillIcon = () => (
+const maxSkillValue = 5;
+const SkillIcon = (i, skillValue) => (
   <div className="col-1">
-    <StyledSkillIcon src={Gem}></StyledSkillIcon>
+    {i < skillValue && <StyledSkillIcon src={Gem}></StyledSkillIcon>}
   </div>
 );
 
 const SkillCategory = ({ skillTitle, skillValue }) => (
   <Skill className="row">
     <div className="col-4">{skillTitle}</div>
-    {Array.from(Array(skillValue)).map(() => SkillIcon())}
+    {Array.from(Array(maxSkillValue)).map((v, i) => SkillIcon(i, skillValue))}
   </Skill>
 );
 
