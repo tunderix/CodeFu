@@ -1,0 +1,25 @@
+{
+  "GameJams": [
+    {
+      "jamName": "FGJ",
+      "role": "Dev",
+      "description": "Lorem Ipsum Something",
+      "imageUrl": "",
+      "year": "5353"
+    },
+    {
+      "jamName": "FGJ",
+      "role": "Dev",
+      "description": "Lorem Ipsum Something",
+      "imageUrl": "",
+      "year": "5353"
+    },
+    {
+      "jamName": "FGJ",
+      "role": "Dev",
+      "description": "Lorem Ipsum Something",
+      "imageUrl": "",
+      "year": "5353"
+    }
+  ]
+}

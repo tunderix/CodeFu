@@ -1,0 +1,41 @@
+{
+  "Education": [
+    {
+      "title": "Saimaa University",
+      "career": "IT",
+      "description": "Lorem Ipsum Something",
+      "imageUrl": "",
+      "dateText": "18.7.7355 - 11.5.5353"
+    }
+  ],
+  "Projects": [
+    {
+      "projectName": "Kaki",
+      "role": "Developer",
+      "description": "Lorem Ipsum Something",
+      "imageUrl": "",
+      "dateText": "18.7.7355 - 11.5.5353"
+    },
+    {
+      "projectName": "Jupi",
+      "role": "Developer",
+      "description": "Lorem Ipsum Something",
+      "imageUrl": "",
+      "dateText": "18.7.7355 - 11.5.5353"
+    },
+    {
+      "projectName": "Jaki",
+      "role": "Developer",
+      "description": "Lorem Ipsum Something",
+      "imageUrl": "",
+      "dateText": "18.7.7355 - 11.5.5353"
+    },
+    {
+      "projectName": "Kaki",
+      "role": "Developer",
+      "description": "Lorem Ipsum Something",
+      "imageUrl": "",
+      "dateText": "18.7.7355 - 11.5.5353"
+    }
+  ]
+}
