@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import SkillCategory from "./SkillCategory";
+import SkillCategory from "../Common/SkillCategory";
 
 const Skills = styled.div``;
 const SkillsContainer = styled.div``;
@@ -9,9 +9,9 @@ const SkillsSection = () => (
     <h1>Skills</h1>
     <SkillsContainer className="container">
       <div className="row">
-        <SkillCategory></SkillCategory>
-        <SkillCategory></SkillCategory>
-        <SkillCategory></SkillCategory>
+        <SkillCategory header="Mobile"></SkillCategory>
+        <SkillCategory header="Games"></SkillCategory>
+        <SkillCategory header="IT"></SkillCategory>
       </div>
     </SkillsContainer>
   </Skills>
