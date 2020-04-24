@@ -1,28 +1,24 @@
 import React from "react";
 import styled from "styled-components";
 import { string, number } from "prop-types";
-import Gem from "../../../assets/img/codeFuIcons/04.png";
+import SkillIcon from "./SkillIcon";
 
 const Skill = styled.div`
   justify-content: center;
-`;
-
-const StyledSkillIcon = styled.img`
-  width: 40px;
-  height: 40px;
+  min-width: 460px;
 `;
 
 const maxSkillValue = 5;
-const SkillIcon = (i, skillValue) => (
-  <div className="col-1">
-    {i < skillValue && <StyledSkillIcon src={Gem}></StyledSkillIcon>}
-  </div>
+const SkillComponent = (i, skillValue) => (
+  <SkillIcon key={"si_" + i} isChecked={i < skillValue}></SkillIcon>
 );
 
 const SkillCategory = ({ skillTitle, skillValue }) => (
   <Skill className="row">
     <div className="col-4">{skillTitle}</div>
-    {Array.from(Array(maxSkillValue)).map((v, i) => SkillIcon(i, skillValue))}
+    {Array.from(Array(maxSkillValue)).map((v, i) =>
+      SkillComponent(i, skillValue)
+    )}
   </Skill>
 );
 

@@ -1,16 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import TimeSpanStep from "./TimeSpanStep";
-import BookIcon from "../../assets/img/codeFuIcons/pt_t_18.png";
-import SalesIcon from "../../assets/img/codeFuIcons/sales.png";
+import IconEducation from "../../assets/img/codeFuIcons/Education.png";
+import IconSales from "../../assets/img/codeFuIcons/Sales.png";
+import IconGameDev from "../../assets/img/codeFuIcons/GameDev.png";
+import IconIT from "../../assets/img/codeFuIcons/IT.png";
+import IconMobile from "../../assets/img/codeFuIcons/Mobile.png";
 
 const TimeSpanComponent = styled.div``;
 
 const Arrow = styled.div`
-  padding: 10px;
+  padding: 0px 0px 10px 10px;
   font-size: 60px;
   width: 160px;
-  height: 100px;
   text-align: center;
   text-decoration: none;
 `;
@@ -19,35 +21,35 @@ const ArrowIcon = () => <Arrow className="col fa fa-long-arrow-right"></Arrow>;
 
 const TimeSpan = () => (
   <TimeSpanComponent className="container">
-    <div className="row row-cols-9">
+    <div className="row row-cols-9 align-items-center">
       <TimeSpanStep
         years={3}
         description="School"
-        image={BookIcon}
+        image={IconEducation}
       ></TimeSpanStep>
       <ArrowIcon></ArrowIcon>
       <TimeSpanStep
         years={3}
         description="Sales"
-        image={SalesIcon}
+        image={IconSales}
       ></TimeSpanStep>
       <ArrowIcon></ArrowIcon>
       <TimeSpanStep
         years={5}
         description="Games"
-        image={BookIcon}
+        image={IconGameDev}
       ></TimeSpanStep>
       <ArrowIcon></ArrowIcon>
       <TimeSpanStep
         years={3}
         description="IT Dev"
-        image={BookIcon}
+        image={IconIT}
       ></TimeSpanStep>
       <ArrowIcon></ArrowIcon>
       <TimeSpanStep
         years={3}
         description="Mobile"
-        image={BookIcon}
+        image={IconMobile}
       ></TimeSpanStep>
     </div>
   </TimeSpanComponent>

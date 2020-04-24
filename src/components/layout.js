@@ -12,6 +12,12 @@ import { useStaticQuery, graphql } from "gatsby";
 import "../assets/vendor/nucleo/css/nucleo.css";
 import "../assets/vendor/font-awesome/css/font-awesome.min.css";
 import "../assets/scss/argon-design-system-react.scss?v1.1.0";
+import styled from "styled-components";
+
+const Mainbody = styled.div`
+  margin: 0 auto;
+  padding: 0 0 0;
+`;
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -26,14 +32,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div
-        style={{
-          margin: `0 auto`,
-          padding: `0 1.0875rem 1.45rem`
-        }}
-      >
+      <Mainbody>
         <main className="justify-content-center text-center">{children}</main>
-      </div>
+      </Mainbody>
     </>
   );
 };

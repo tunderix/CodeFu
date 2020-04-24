@@ -10,11 +10,12 @@ import CapabilitiesSection from "../components/CapabilitiesSection";
 import ProjectsSection from "../components/ProjectsSection";
 import GameJamsSection from "../components/GameJamSection";
 import ContactMeSection from "../components/ContactSection";
+import style from "../assets/css/code-fu.css";
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <IntroductionSection className="container-fluid"></IntroductionSection>
+    <IntroductionSection className={style.cfsection}></IntroductionSection>
     <SkillsSection className="container-fluid"></SkillsSection>
     <CapabilitiesSection className="container-fluid"></CapabilitiesSection>
     <ProjectsSection className="container-fluid"></ProjectsSection>

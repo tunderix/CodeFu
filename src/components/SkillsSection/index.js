@@ -12,6 +12,7 @@ const SkillsSection = () => (
         <SkillCategory header="Mobile"></SkillCategory>
         <SkillCategory header="Games"></SkillCategory>
         <SkillCategory header="IT"></SkillCategory>
+        <SkillCategory header="IT"></SkillCategory>
       </div>
     </SkillsContainer>
   </Skills>

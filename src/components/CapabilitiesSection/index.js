@@ -13,6 +13,7 @@ const CapabilitiesSection = () => (
         <SkillCategory header="Project Management"></SkillCategory>
         <SkillCategory header="Tools"></SkillCategory>
         <SkillCategory header="Processes"></SkillCategory>
+        <SkillCategory header="Processes"></SkillCategory>
       </div>
     </SkillsContainer>
   </Capabilities>

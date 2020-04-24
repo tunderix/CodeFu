@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes, { number, string } from "prop-types";
-import BookIcon from "../../assets/img/codeFuIcons/pt_t_18.png";
+import BookIcon from "../../assets/img/codeFuIcons/Education.png";
 
 const TimeSpanStepComponent = styled.div``;
 
-const StudyIcon = styled.img``;
+const StepIcon = styled.img``;
 
 const TimeSpanStep = ({ years, description, image }) => (
   <TimeSpanStepComponent className="col">
     <div className="container">
       <div className="row">
-        <StudyIcon src={image} className="col"></StudyIcon>
+        <StepIcon src={image} className="col"></StepIcon>
         <div className="col">{description}</div>
         <div className="col">{years} years</div>
       </div>
