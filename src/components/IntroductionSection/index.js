@@ -1,6 +1,8 @@
 import React from "react";
 import TimeSpan from "./TimeSpan";
 import CFSection from "../Common/CFSection";
+import Img from "gatsby-image";
+import { graphql } from "gatsby";
 
 const IntroductionSection = () => (
   <CFSection>

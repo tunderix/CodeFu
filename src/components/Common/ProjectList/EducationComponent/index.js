@@ -1,7 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import PropTypes, { number, string } from "prop-types";
-import image from "../../../../assets/img/codeFuIcons/04.png";
+
+import CFImage from "../../../Common/CFImage";
+import Img from "gatsby-image";
+
 const StyledEducationComponent = styled.div``;
 
 const ProjectImage = styled.img`
@@ -17,9 +20,7 @@ const EducationComponent = ({ eduData }) => (
     <div className="col-6">
       <p>{eduData.description}</p>
     </div>
-    <div className="col-2">
-      <ProjectImage src={image}></ProjectImage>
-    </div>
+    <div className="col-2"></div>
   </StyledEducationComponent>
 );
 

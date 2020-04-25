@@ -1,11 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import TimeSpanStep from "./TimeSpanStep";
-import IconEducation from "../../assets/img/codeFuIcons/Education.png";
-import IconSales from "../../assets/img/codeFuIcons/Sales.png";
-import IconGameDev from "../../assets/img/codeFuIcons/GameDev.png";
-import IconIT from "../../assets/img/codeFuIcons/IT.png";
-import IconMobile from "../../assets/img/codeFuIcons/Mobile.png";
+import CFImage from "../Common/CFImage";
 
 const TimeSpanComponent = styled.div``;
 
@@ -25,31 +21,31 @@ const TimeSpan = () => (
       <TimeSpanStep
         years={3}
         description="School"
-        image={IconEducation}
+        image={undefined}
       ></TimeSpanStep>
       <ArrowIcon></ArrowIcon>
       <TimeSpanStep
         years={3}
         description="Sales"
-        image={IconSales}
+        image={undefined}
       ></TimeSpanStep>
       <ArrowIcon></ArrowIcon>
       <TimeSpanStep
         years={5}
         description="Games"
-        image={IconGameDev}
+        image={undefined}
       ></TimeSpanStep>
       <ArrowIcon></ArrowIcon>
       <TimeSpanStep
         years={3}
         description="IT Dev"
-        image={IconIT}
+        image={undefined}
       ></TimeSpanStep>
       <ArrowIcon></ArrowIcon>
       <TimeSpanStep
         years={3}
         description="Mobile"
-        image={IconMobile}
+        image={undefined}
       ></TimeSpanStep>
     </div>
   </TimeSpanComponent>

@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { bool } from "prop-types";
-import EmptyImage from "../../../assets/img/codeFuIcons/Skill_Empty.png";
-import BackgroundImage from "../../../assets/img/codeFuIcons/Skill_BG.png";
-import CheckImage from "../../../assets/img/codeFuIcons/SkillMarker.png";
+
+import CFImage from "../../Common/CFImage";
+import Img from "gatsby-image";
 
 const EmptyIcon = styled.img`
   width: 40px;
@@ -28,14 +28,7 @@ const StyledSkillIcon = styled.div`
 
 const SkillIcon = ({ isChecked }) => (
   <StyledSkillIcon className="col-1">
-    {isChecked ? (
-      <div>
-        <Background src={BackgroundImage}></Background>
-        <CheckedIcon src={CheckImage}></CheckedIcon>
-      </div>
-    ) : (
-      <EmptyIcon src={EmptyImage}></EmptyIcon>
-    )}
+    {isChecked ? <div></div> : <div></div>}
   </StyledSkillIcon>
 );
 
