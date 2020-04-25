@@ -1,0 +1,16 @@
+backend:
+  name: test-repo
+media_folder: static/assets
+public_folder: /assets
+collections:
+  - name: projects
+    label: Projects
+    folder: src/projects
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    create: true
+    fields:
+      - { name: projectName, label: ProjectName }
+      - { name: startDate, label: StartDate, widget: datetime }
+      - { name: endDate, label: EndDate, widget: datetime }
+      - { name: description, label: Description }
+      - { name: thumbnail, label: Thumbnail, widget: image }
