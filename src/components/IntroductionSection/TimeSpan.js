@@ -21,7 +21,7 @@ const ArrowIcon = () => <Arrow className="col fa fa-long-arrow-right"></Arrow>;
 
 const TimeSpan = () => (
   <TimeSpanComponent className="container">
-    <div className="row row-cols-9 align-items-center">
+    <div className="row">
       <TimeSpanStep
         years={3}
         description="School"

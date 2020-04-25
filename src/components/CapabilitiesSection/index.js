@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import SkillCategory from "../Common/SkillCategory";
+import CFSection from "../Common/CFSection";
 
-const Capabilities = styled.div``;
 const SkillsContainer = styled.div``;
 
 const CapabilitiesSection = () => (
-  <Capabilities>
+  <CFSection>
     <h1>Global Capabilities</h1>
     <SkillsContainer className="container">
       <div className="row">
@@ -16,7 +16,7 @@ const CapabilitiesSection = () => (
         <SkillCategory header="Processes"></SkillCategory>
       </div>
     </SkillsContainer>
-  </Capabilities>
+  </CFSection>
 );
 
 export default CapabilitiesSection;

@@ -25,7 +25,6 @@ TimeSpanStep.defaultProps = {
   image: BookIcon
 };
 TimeSpanStep.propTypes = {
-  children: PropTypes.any,
   years: number,
   description: string,
   image: string

@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import PropTypes, { string, arrayOf } from "prop-types";
+import PropTypes, { string } from "prop-types";
 import SkillRow from "./SkillRow";
+
 const SCategory = styled.div``;
 const SkillCategoryContainer = styled.div`
   justify-content: center;

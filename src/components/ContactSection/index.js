@@ -1,13 +1,12 @@
 import React from "react";
-import styled from "styled-components";
 import { FacebookIcon, TwitterIcon } from "./SocialMediaIcons";
-const ContactMe = styled.div``;
+import CFSection from "../Common/CFSection";
 
 const ContactMeSection = () => (
-  <ContactMe>
+  <CFSection>
     <FacebookIcon></FacebookIcon>
     <TwitterIcon></TwitterIcon>
-  </ContactMe>
+  </CFSection>
 );
 
 export default ContactMeSection;
