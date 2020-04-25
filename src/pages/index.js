@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { any } from "prop-types";
 
 import Layout from "../components/layout";
 
@@ -41,7 +42,7 @@ IndexPage.defaultProps = {
   data: {}
 };
 IndexPage.propTypes = {
-  data: Any
+  data: any
 };
 
 export default IndexPage;
